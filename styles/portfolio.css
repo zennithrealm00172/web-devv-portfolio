@@ -1,0 +1,107 @@
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-left: 150px;
+margin-top: 0px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.text-primary{
+    color: orange;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+} 
+.dark-2{
+    color: darkslategray;
+}
+nav ul li button{
+    background-color: orange;
+}
+nav ul li{
+    display: inline;
+    padding: 10px;
+    justify-content: end;
+}
+.btn{
+    color: aliceblue;
+    font-weight: bold;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-primary{
+    background-color: orange;
+    color: aliceblue;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+    font-weight: 600px;
+    font-size: 45;
+}
+.btn-secondary{
+     font-weight: 600px;
+    font-size: 45;
+    background-color: aliceblue;
+    color: orange;
+    border-color: orange;
+    border-radius: 4px;
+}
+.banner-content{
+    margin-left: 150px;
+}
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right ;
+    background-color:FFF8F3 ;
+}
+.ab{
+    display: flex;
+    justify-content: space-between;
+}
+.blackish{
+    color: dimgray;
+}
+.all{
+    justify-content: center;
+    margin-left: 600px;
+    margin-right: 600px;
+    background-color: FFF8F3;
+}
+.About-me{
+    justify-content: center;
+}
+.what-I-do{
+color: darkgray;
+margin-left: 600px;
+   margin-right: 600px;
+}
+.head{
+   align-items: center;
+   margin-left: 800px;
+   margin-right: 800px;
+}
+.skill-container{
+    display: flex;
+    margin-left: 600px;
+   margin-right: 600px;
+   margin-top: 20px;
+   gap: 20px;
+}
+.skill{
+    padding: 30px;
+}
+.Education{
+    display: flex;
+}
